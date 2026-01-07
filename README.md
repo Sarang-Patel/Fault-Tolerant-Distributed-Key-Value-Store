@@ -72,10 +72,5 @@ Replace `<server-port-or-id>` and `<port1>..` with the actual ports or IDs you c
 -   If instances do not start, confirm the run configuration arguments and that ports are not already in use.
 -   Check the log files (configured in `LoggerPackage`) for component-level failure messages.
 
-## Next Steps / Improvements
-
--   Add a script to start multiple servers with predefined ports for easier local testing.
--   Provide unit and integration tests to validate Paxos behavior under different failure scenarios.
-
 ---
 
